@@ -20,7 +20,7 @@ This project is a ReactJS application designed to detect and classify pests in i
 - [Pests Classes](#pests-classes)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Project Setup](#projectsetup)
+  - [Project Setup](#project-setup)
   - [Executing program](#executing-program)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
