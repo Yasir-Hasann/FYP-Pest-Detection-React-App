@@ -20,6 +20,7 @@ This project is a ReactJS application designed to detect and classify pests in i
 - [Pests Classes](#pests-classes)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Project Setup](#projectsetup)
   - [Executing program](#executing-program)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
@@ -52,6 +53,31 @@ The system is designed to identify and classify the following pest classes:
 ### Prerequisites
 
 - Node.js installed on your machine
+
+### Project Setup
+After downloading or cloning this project, follow these steps to configure the host address:
+
+#### Backend Configuration
+1. Navigate to the backend directory.
+1. Open the `server.js` file.
+1. Locate the following line of code:
+   
+   ```js
+   const host = "10.8.33.0";   // Replace it with your IP Address
+   ```
+1. Replace this host address with your IP Address.
+
+#### Frontend Configuration
+1. Navigate to the frontend directory then src/components/.
+1. Open the `Image.jsx` file.
+1. Locate the following line of code:
+   
+   ```jsx
+    axios.post('http://10.8.33.0:3000/upload', formData).then((res) => {   // Replace it with your IP Address
+   ```
+1. Replace this address with your IP Address.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Executing program
@@ -94,7 +120,7 @@ To run both the React app and the server using Visual Studio Code (VS Code), you
 
 1. The server should now be running and ready to receive requests from the Flutter app.
 
-By following these steps, you can simultaneously run the Flutter app and the backend server in VS Code. This allows you to test the app and interact with the server while having them both easily accessible within the same development environment.
+By following these steps, you can simultaneously run the ReactJS app and the backend server in VS Code. This allows you to test the app and interact with the server while having them both easily accessible within the same development environment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
    
